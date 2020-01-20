@@ -1,0 +1,21 @@
+{
+  "name": "mtb-wechat-tool-ui",
+  "version": "1.0.0",
+  "description": "MTB WeChat Tool UI",
+  "main": "app.js",
+  "author": "Zoe",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html -d build/ --public-url ./"
+  },
+  "dependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "mithril": "^2.0.0-rc.3",
+    "parcel-bundler": "^1.11.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3"
+  }
+}
